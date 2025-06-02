@@ -1,0 +1,87 @@
+body {
+  background: #0d0d0d;
+  color: #f97316;
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+.login {
+  text-align: center;
+  margin-top: 2rem;
+}
+.login input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.login button {
+  padding: 0.5rem 1rem;
+  background: #f97316;
+  color: #0d0d0d;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.module-button {
+  display: block;
+  background: linear-gradient(145deg, #1f1f1f, #121212);
+  border: 1px solid #f97316;
+  color: #f97316;
+  padding: 15px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.module-button:hover {
+  background: #f97316;
+  color: #121212;
+  transform: scale(1.01);
+}
+
+.module-content {
+  display: none;
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border-left: 4px solid #f97316;
+  animation: fadeIn 0.3s ease-in-out;
+  white-space: pre-wrap;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.progress {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+a {
+  color: #f97316;
+  text-decoration: none;
+}
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.footer-links {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #f97316;
+}
+.footer-links a {
+  color: #f97316;
+  text-decoration: underline;
+}
+
