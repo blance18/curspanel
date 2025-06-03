@@ -55,9 +55,13 @@ h1 {
   margin-bottom: 25px;
   border-left: 4px solid #f97316;
   animation: fadeIn 0.3s ease-in-out;
+
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  line-break: anywhere;
+  hyphens: auto;
+
   font-size: 1rem;
   line-height: 1.6;
 }
